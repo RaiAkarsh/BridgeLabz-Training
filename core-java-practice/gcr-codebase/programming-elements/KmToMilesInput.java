@@ -1,5 +1,5 @@
 import java.util.*;
-public class Kmtomilesinput {
+public class KmToMilesInput {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int km = x.nextInt();

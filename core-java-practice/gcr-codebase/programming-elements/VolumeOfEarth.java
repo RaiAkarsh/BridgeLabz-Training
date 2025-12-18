@@ -1,4 +1,4 @@
-public class Volumeofearth {
+public class VolumeOfEarth {
     public static void main(String[] args) {
         double radiuskm = 6378.0;
         double radiusmiles = radiuskm / 1.6;

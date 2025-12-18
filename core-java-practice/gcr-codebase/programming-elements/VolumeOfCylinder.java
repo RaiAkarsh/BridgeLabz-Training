@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Volumeofcylinder{
+class VolumeOfCylinder{
   public static void main(String []args){
     Scanner x=new Scanner(System.in);
     int radius=x.nextInt();

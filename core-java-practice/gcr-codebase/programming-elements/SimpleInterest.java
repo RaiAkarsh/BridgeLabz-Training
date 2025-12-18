@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Simpleinterest{
+class SimpleInterest{
   public static void main(String []args){
     Scanner x=new Scanner(System.in);
     int p=x.nextInt();

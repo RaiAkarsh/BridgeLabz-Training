@@ -1,4 +1,4 @@
-public class Profitloss {
+public class ProfitLoss {
     public static void main(String[] args) {
         int cp=129;
         int sp=191;

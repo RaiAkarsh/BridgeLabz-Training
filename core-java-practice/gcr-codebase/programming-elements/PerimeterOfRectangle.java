@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Perimeterofrectangle{
+class PerimeterOfRectangle{
   public static void main(String []args){
     Scanner x=new Scanner(System.in);
     int l=x.nextInt();

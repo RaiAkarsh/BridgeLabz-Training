@@ -1,5 +1,5 @@
 import java.util.*;
-public class Heightinfeetandinches {
+public class HeightInFeetAndInches {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int cm=x.nextInt();

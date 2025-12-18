@@ -1,5 +1,5 @@
 import java.util.*;
-public class Perimeterofsquare {
+public class PerimeterOfSquare {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int side = x.nextInt();

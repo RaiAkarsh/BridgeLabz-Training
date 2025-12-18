@@ -1,5 +1,5 @@
 import java.util.*;
-public class Maximumnoofhandshake {
+public class MaximumNumberOfHandshake {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int n = x.nextInt();

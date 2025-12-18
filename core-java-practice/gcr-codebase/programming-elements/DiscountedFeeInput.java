@@ -1,5 +1,5 @@
 import java.util.*;
-public class Discountedfeeinput {
+public class DiscountedFeeInput {
      public static void main(String [] args){
         Scanner x=new Scanner(System.in);
         int fee=x.nextInt();

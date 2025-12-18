@@ -1,4 +1,4 @@
-public class Discountedfee {
+public class DiscountedFee {
     public static void main(String [] args){
         int fee=125000;
         int discountPercent=10;

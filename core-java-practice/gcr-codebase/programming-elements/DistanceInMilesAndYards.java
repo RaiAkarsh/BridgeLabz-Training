@@ -1,5 +1,5 @@
 import java.util.*;
-public class Distanceinmilesandyards {
+public class DistanceInMilesAndYards {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         int distanceInFeet = x.nextInt();
