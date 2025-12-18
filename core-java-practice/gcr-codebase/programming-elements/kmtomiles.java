@@ -1,6 +1,6 @@
 import java.util.*;
 
-class kmtomiles{
+class Kmtomiles{
   public static void main(String []args){
     Scanner x=new Scanner(System.in);
     int km=x.nextInt();//kilometers
