@@ -4,6 +4,7 @@ public class CoffeeCounter{
        Scanner x=new Scanner(System.in);
        String coffeeType;
          int quantity;
+         double bill=0.0;
          while(true){
             System.out.println("Enter coffee type (Espresso/Latte/Cappuccino) or 'exit' to finish:");
             coffeeType=x.next().toLowerCase();
@@ -27,12 +28,16 @@ public class CoffeeCounter{
                     System.out.println("Invalid coffee type. Please try again.");
                     continue;        
             }
-            double bill=price*quantity;
-            System.out.println("Bill amount: " + bill);
+            if(!coffeeType.equals("exit")){
+                bill +=price*quantity;
+                continue;
+            }
+        }
+            System.out.println("Total bill before GST: " + bill);
             double gst=bill*0.18;
             System.out.println("GST (18%): " + gst);
             double totalAmount=bill+gst;
             System.out.println("Total amount to be paid: " + totalAmount);
-         }
+         
     }
 }
