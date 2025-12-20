@@ -20,6 +20,7 @@ BRIDGELABZ-TRAINING
 │ └── scenario-based
 └── README.md
 
+
 Each folder inside `gcr-codebase` represents a specific learning module containing Java programs and practice problems.
 
 ---
@@ -28,82 +29,79 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ### 🗓️ **16 December 2025**
 **Focus:** Training Kickoff & LeetCode Practice  
-✔️ Started the official BridgeLabz Training Program.  
-✔️ Set up Java development environment and tools.  
-✔️ Learned Git & GitHub basics.  
-✔️ Solved **LeetCode problems using Java** to strengthen logic building.
+✔️ Started the official BridgeLabz Training Program  
+✔️ Set up Java development environment and tools  
+✔️ Learned Git & GitHub basics  
+✔️ Solved **LeetCode problems using Java**
 
 **Key Learnings:**  
 - Problem-solving approach  
 - Logical reasoning  
 - Basics of time and space complexity  
 
-📌 Code Location:  
-`core-java-practice/gcr-codebase/leet-code-codebase`
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/leet-code-codebase`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/leet-code-codebase
 
 ---
 
 ### 🗓️ **17 December 2025**
 **Focus:** Programming Elements – Level 1  
-✔️ Started Programming Elements module.  
-✔️ Practiced Java fundamentals:
-- Variables  
-- Data types  
-- Operators  
-- Basic Input/Output  
+✔️ Started Programming Elements module  
+✔️ Practiced variables, data types, operators, and I/O  
 
 **Key Learnings:**  
 - Core Java syntax  
-- Writing clean and simple Java programs  
+- Writing clean and simple programs  
 
-📌 Code Location:  
-`core-java-practice/gcr-codebase/programming-elements`
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/programming-elements`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
 
 ---
 
 ### 🗓️ **18 December 2025**
 **Focus:** Programming Elements – Level 2  
-✔️ Continued Programming Elements assignments.  
-✔️ Implemented arithmetic and logical programs.  
-✔️ Improved understanding of data processing and output formatting.
+✔️ Continued Programming Elements assignments  
+✔️ Implemented arithmetic and logical programs  
 
 **Key Learnings:**  
 - Strong foundation of Java basics  
-- Better code readability and structure  
+- Better code structure and readability  
 
-📌 Code Location:  
-`core-java-practice/gcr-codebase/programming-elements`
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/programming-elements`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
 
 ---
 
 ### 🗓️ **19 December 2025**
 **Focus:** Control Flow  
-✔️ Completed Control Flow assignments.  
-✔️ Practiced:
-- `if`, `if-else`, `switch` statements  
-- Looping constructs (`for`, `while`, `do-while`)  
-✔️ Implemented programs demonstrating conditional and loop logic.
+✔️ Completed Control Flow assignments  
+✔️ Practiced conditional statements and loops  
 
 **Key Learnings:**  
 - Decision-making logic  
 - Efficient execution flow  
 
-📌 Code Location:  
-`core-java-practice/gcr-codebase/control-flow`
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/control-flow`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow
 
 ---
 
 ### 🗓️ **20 December 2025**
 **Focus:** Scenario-Based Problems  
-✔️ Started working on scenario-based Java questions.  
-✔️ Applied Java concepts to real-world problem statements.
+✔️ Started working on scenario-based Java questions  
+✔️ Applied Java concepts to real-world problems  
 
 **Key Learnings:**  
-- Analytical and practical problem solving  
-- Applying fundamentals in real scenarios  
+- Analytical thinking  
+- Practical problem-solving  
 
-📌 Code Location:  
-`core-java-practice/gcr-codebase/scenario-based`
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/scenario-based`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/scenario-based
 
 ---
 
