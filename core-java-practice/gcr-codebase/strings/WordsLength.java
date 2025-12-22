@@ -38,7 +38,7 @@ public class WordsLength {
         String[] words = manualSplit(text);
         String[][] table = wordLength(words);
 
-        System.out.println("Word\tLength");
+        System.out.println("Word Length");
         for (int i = 0; i < table.length; i++) {
             System.out.println(table[i][0] + "\t" + Integer.parseInt(table[i][1]));
         }
