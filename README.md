@@ -21,6 +21,7 @@ BRIDGELABZ-TRAINING
 └── README.md
 
 
+
 Each folder inside `gcr-codebase` represents a specific learning module containing Java programs and practice problems.
 
 ---
@@ -34,11 +35,6 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 ✔️ Learned Git & GitHub basics  
 ✔️ Solved **LeetCode problems using Java**
 
-**Key Learnings:**  
-- Problem-solving approach  
-- Logical reasoning  
-- Basics of time and space complexity  
-
 📌 **Code Location:**  
 `core-java-practice/gcr-codebase/leet-code-codebase`  
 🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/leet-code-codebase
@@ -47,12 +43,6 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ### 🗓️ **17 December 2025**
 **Focus:** Programming Elements – Level 1  
-✔️ Started Programming Elements module  
-✔️ Practiced variables, data types, operators, and I/O  
-
-**Key Learnings:**  
-- Core Java syntax  
-- Writing clean and simple programs  
 
 📌 **Code Location:**  
 `core-java-practice/gcr-codebase/programming-elements`  
@@ -62,12 +52,6 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ### 🗓️ **18 December 2025**
 **Focus:** Programming Elements – Level 2  
-✔️ Continued Programming Elements assignments  
-✔️ Implemented arithmetic and logical programs  
-
-**Key Learnings:**  
-- Strong foundation of Java basics  
-- Better code structure and readability  
 
 📌 **Code Location:**  
 `core-java-practice/gcr-codebase/programming-elements`  
@@ -77,12 +61,6 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ### 🗓️ **19 December 2025**
 **Focus:** Control Flow  
-✔️ Completed Control Flow assignments  
-✔️ Practiced conditional statements and loops  
-
-**Key Learnings:**  
-- Decision-making logic  
-- Efficient execution flow  
 
 📌 **Code Location:**  
 `core-java-practice/gcr-codebase/control-flow`  
@@ -92,12 +70,6 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ### 🗓️ **20 December 2025**
 **Focus:** Scenario-Based Problems  
-✔️ Started working on scenario-based Java questions  
-✔️ Applied Java concepts to real-world problems  
-
-**Key Learnings:**  
-- Analytical thinking  
-- Practical problem-solving  
 
 📌 **Code Location:**  
 `core-java-practice/gcr-codebase/scenario-based`  
@@ -105,39 +77,47 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ---
 
+### 🗓️ **Saturday – 21 December 2025**
+**Focus:** Arrays  
+✔️ Worked on array-based Java programs  
+✔️ Practiced:
+- Single-dimensional arrays  
+- Traversal and manipulation  
+- Basic array problem-solving  
+
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/arrays`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays
+
+---
+
+### 🗓️ **Today – 22 December 2025**
+**Focus:** Strings  
+✔️ Started working on string-based Java programs  
+✔️ Practiced:
+- String creation and manipulation  
+- String methods and logic-based problems  
+
+📌 **Code Location:**  
+`core-java-practice/gcr-codebase/strings`  
+🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings
+
+---
+
 ## 🧠 Skills Gained
 
 - Core Java Fundamentals  
+- Arrays & String Handling  
 - Logical & Problem-Solving Skills  
 - Clean Coding Practices  
 - Git & GitHub Version Control  
-- Structured Project Development  
-
----
-
-## 🛠️ Tools & Technologies
-
-| Tool | Purpose |
-|------|--------|
-| Java | Programming & Problem Solving |
-| Git | Version Control |
-| GitHub | Code Hosting |
-| VS Code / IntelliJ | Development Environment |
-
----
-
-## 📌 Upcoming Work
-
-➡️ More scenario-based problems  
-➡️ Advanced Java concepts  
-➡️ Continuous LeetCode practice  
 
 ---
 
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-New programs, improvements, and daily progress updates will **continue to be added regularly** as the training progresses.
+New programs and daily progress updates will **continue to be added regularly** as the training progresses.
 
 ---
 
