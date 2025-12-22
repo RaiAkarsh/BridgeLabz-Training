@@ -1,11 +1,11 @@
 public class NullPointerDemo {
 
-    public static void generateException() {
+    public static void generate() {
         String text = null;
         System.out.println(text.length());
     }
 
-    public static void handleException() {
+    public static void handle() {
         String text = null;
 
         try {
@@ -17,12 +17,8 @@ public class NullPointerDemo {
     }
 
     public static void main(String[] args) {
-
-        System.out.println("Generating NullPointerException");
-        generateException();
-
-        System.out.println("Handling NullPointerException");
-        handleException();
+        generate();
+        handle();
 
     }
 }

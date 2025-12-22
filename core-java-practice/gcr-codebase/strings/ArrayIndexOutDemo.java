@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 public class ArrayIndexOutDemo {
 
-    public static void generateException(String[] names) {
+    public static void generate(String[] names) {
         System.out.println(names[names.length]);
     }
 
-    public static void handleException(String[] names) {
+
+    public static void handle(String[] names) {
         try {
+
             System.out.println(names[names.length]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("ArrayIndexOutOfBoundsException handled!");
@@ -30,12 +32,8 @@ public class ArrayIndexOutDemo {
             names[i] = x.next();
         }
         System.out.println();
-
-        System.out.println("Generating ArrayIndexOutOfBoundsException");
-        generateException(names);
-
-        System.out.println("Handling ArrayIndexOutOfBoundsException");
-        handleException(names);
+        generate(names);
+        handle(names);
 
     }
 }
