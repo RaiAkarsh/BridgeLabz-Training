@@ -77,7 +77,7 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ---
 
-### 🗓️ **Saturday – 21 December 2025**
+### 🗓️ **21 December 2025**
 **Focus:** Arrays  
 ✔️ Worked on array-based Java programs  
 ✔️ Practiced:
@@ -91,7 +91,7 @@ Each folder inside `gcr-codebase` represents a specific learning module containi
 
 ---
 
-### 🗓️ **Today – 22 December 2025**
+### 🗓️ **22 December 2025**
 **Focus:** Strings  
 ✔️ Started working on string-based Java programs  
 ✔️ Practiced:
