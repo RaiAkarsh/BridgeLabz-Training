@@ -11,118 +11,134 @@ This repository documents my **day-wise learning progress**, hands-on Java pract
 
 ## 🗂️ Project Structure
 
-BRIDGELABZ-TRAINING
+BridgeLabz-Training
+│
 ├── core-java-practice
 │ └── gcr-codebase
 │ ├── programming-elements
 │ ├── control-flow
+│ ├── arrays
+│ ├── strings
+│ ├── methods
 │ ├── leet-code-codebase
 │ └── scenario-based
+│
 └── README.md
 
 
 
-Each folder inside `gcr-codebase` represents a specific learning module containing Java programs and practice problems.
+
+📌 Each folder inside `gcr-codebase` represents a specific **Core Java learning module** with practice programs.
 
 ---
 
-## 📅 Training Timeline (Git-Aligned)
+## 📅 Training Timeline
 
-### 🗓️ **16 December 2025**
-**Focus:** Training Kickoff & LeetCode Practice  
-✔️ Started the official BridgeLabz Training Program  
-✔️ Set up Java development environment and tools  
-✔️ Learned Git & GitHub basics  
-✔️ Solved **LeetCode problems using Java**
+### 📆 **16 December 2025**
+**Topic:** Training Setup & LeetCode  
+- Java environment and IDE setup  
+- Introduction to Git & GitHub  
+- Solved LeetCode problems using Java  
 
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/leet-code-codebase`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/leet-code-codebase
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/leet-code-codebase
 
 ---
 
-### 🗓️ **17 December 2025**
-**Focus:** Programming Elements – Level 1  
+### 📆 **17 December 2025**
+**Topic:** Programming Elements – Level 1  
+- Variables and data types  
+- Operators  
+- Basic input/output  
 
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/programming-elements`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
-
----
-
-### 🗓️ **18 December 2025**
-**Focus:** Programming Elements – Level 2  
-
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/programming-elements`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
 
 ---
 
-### 🗓️ **19 December 2025**
-**Focus:** Control Flow  
+### 📆 **18 December 2025**
+**Topic:** Programming Elements – Level 2  
+- Arithmetic programs  
+- Logical problem solving  
+- Improving code structure  
 
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/control-flow`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow
-
----
-
-### 🗓️ **20 December 2025**
-**Focus:** Scenario-Based Problems  
-
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/scenario-based`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/scenario-based
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
 
 ---
 
-### 🗓️ **21 December 2025**
-**Focus:** Arrays  
-✔️ Worked on array-based Java programs  
-✔️ Practiced:
-- Single-dimensional arrays  
+### 📆 **19 December 2025**
+**Topic:** Control Flow  
+- Conditional statements (`if`, `switch`)  
+- Looping constructs (`for`, `while`, `do-while`)  
+
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow
+
+---
+
+### 📆 **20 December 2025**
+**Topic:** Scenario-Based Problems  
+- Real-world Java problem statements  
+- Applying logic to scenarios  
+
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/scenario-based
+
+---
+
+### 📆 **22 December 2025**
+**Topic:** Arrays  
+- One-dimensional arrays  
 - Traversal and manipulation  
-- Basic array problem-solving  
+- Array-based problem solving  
 
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/arrays`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays
 
 ---
 
-### 🗓️ **22 December 2025**
-**Focus:** Strings  
-✔️ Started working on string-based Java programs  
-✔️ Practiced:
+### 📆 **23 December 2025**
+**Topic:** Strings  
 - String creation and manipulation  
-- String methods and logic-based problems  
+- String methods  
+- Logic-based string problems  
 
-📌 **Code Location:**  
-`core-java-practice/gcr-codebase/strings`  
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings
 
 ---
 
-## 🧠 Skills Gained
+### 📆 **24 December 2025**
+**Topic:** Methods  
+- User-defined methods  
+- Parameters and return types  
+- Reusability and modular coding  
+- Calling methods from `main`  
+
+🔗 Code:  
+https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods
+
+---
+
+## 🧠 Skills Covered
 
 - Core Java Fundamentals  
-- Arrays & String Handling  
-- Logical & Problem-Solving Skills  
-- Clean Coding Practices  
-- Git & GitHub Version Control  
+- Control Flow  
+- Arrays & Strings  
+- Methods and Modular Programming  
+- Logical Problem Solving  
+- Git & GitHub  
 
 ---
 
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-New programs and daily progress updates will **continue to be added regularly** as the training progresses.
+New folders, programs, and daily updates will **continue to be added regularly** as the training progresses.
 
 ---
 
-## 📁 Repository Link
+## 🔗 Repository Link
 
-🔗 https://github.com/RaiAkarsh/BridgeLabz-Training
-
-
+👉 https://github.com/RaiAkarsh/BridgeLabz-Training
