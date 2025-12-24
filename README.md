@@ -1,10 +1,10 @@
-# 🚀 BridgeLabz – Java Training (Capgemini Program)
+# 🚀 BridgeLabz – Java Training 
 
-Welcome to my **BridgeLabz – Capgemini Java Training Repository** 👋  
+Welcome to my **BridgeLabz –  Java Training Repository** 👋  
 This repository documents my **day-wise learning progress**, hands-on Java practice, and problem-solving journey during the training program.
 
 🎓 **Name:** Akarsh Rai  
-📍 **Training Program:** BridgeLabz – Capgemini  
+📍 **Training Program:** BridgeLabz  
 📅 **Training Start Date:** 16 December 2025  
 
 ---
