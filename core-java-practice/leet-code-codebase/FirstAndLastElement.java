@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class fal {
+class FirstAndLastElement {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
 

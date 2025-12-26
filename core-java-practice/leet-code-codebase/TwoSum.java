@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class twosum {
+class TwoSum {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
 

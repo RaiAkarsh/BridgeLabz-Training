@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class rmvele {
+class RemoveElement {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
 
