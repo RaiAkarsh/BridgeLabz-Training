@@ -17,7 +17,7 @@ public class BMICalculator {
         }
     }
     double BMI(double weight, double height) {
-        int h= (int)(height/100);
+        double h= (height/100);
         return weight / (h * h);
     }
     String Category(double bmi) {
