@@ -10,7 +10,7 @@ public class SnakeAndLadder {
 			System.out.println("Dice Number " + diceNumber);
 
 			int option = (int) (Math.random() * 3) + 1;
-			if (option == 1) {
+			if (option == 1 || (position + diceNumber)>100) {
 				System.out.println("No Play ");
 			} 
 			else if (option == 2) {
