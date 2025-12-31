@@ -14,7 +14,7 @@ This repository documents my **day-wise Core Java learning** and hands-on practi
 ---
 
 ## 🗂️ Repository Structure
-
+```
 BridgeLabz-Training
 │
 ├── core-java-practice
@@ -31,7 +31,7 @@ BridgeLabz-Training
 │   └── scenario-based
 │
 └── README.md
-
+```
 ---
 
 📌  
