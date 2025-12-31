@@ -1,25 +1,31 @@
-# 🚀 BridgeLabz – Java Training 
+# 🚀 BridgeLabz – Java Training
 
-Welcome to my **BridgeLabz –  Java Training Repository** 👋  
-This repository documents my **day-wise learning progress**, hands-on Java practice, and problem-solving journey during the training program.
-
-🎓 **Name:** Akarsh Rai  
-📍 **Training Program:** BridgeLabz  
-📅 **Training Start Date:** 16 December 2025  
+Welcome to my **BridgeLabz Java Training Repository** 👋  
+This repository documents my **day-wise Core Java learning** and hands-on practice, strictly aligned with **actual GitHub commits**.
 
 ---
 
-## 🗂️ Project Structure
+## 👤 Training Details
+
+- **Name:** Akarsh Rai  
+- **Program:** BridgeLabz Java Training  
+- **Start Date:** 16 December 2025  
+
+---
+
+## 🗂️ Repository Structure (Correct)
 
 BridgeLabz-Training
 │
 ├── core-java-practice
-│ └── gcr-codebase
-│ ├── programming-elements
-│ ├── control-flow
-│ ├── arrays
-│ ├── strings
-│ ├── methods
+│ ├── gcr-codebase
+│ │ ├── programming-elements
+│ │ ├── control-flow
+│ │ ├── arrays
+│ │ ├── strings
+│ │ ├── methods
+│ │ └── extras
+│ │
 │ ├── leet-code-codebase
 │ └── scenario-based
 │
@@ -27,107 +33,155 @@ BridgeLabz-Training
 
 
 
-
-📌 Each folder inside `gcr-codebase` represents a specific **Core Java learning module** with practice programs.
+📌  
+- **gcr-codebase** contains structured Core Java concept-wise practice  
+- **leet-code-codebase** contains logic-building and DSA practice using LeetCode  
+- **scenario-based** contains real-world and case-based Java problems  
 
 ---
 
-## 📅 Training Timeline
+## 📅 Training Timeline (Commit-Based)
 
 ### 📆 **16 December 2025**
-**Topic:** Training Setup & LeetCode  
-- Java environment and IDE setup  
-- Introduction to Git & GitHub  
-- Solved LeetCode problems using Java  
+On this day, I started my Java training by setting up the development environment and understanding the workflow.
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/leet-code-codebase
+**Work Done:**
+- Java and IDE setup  
+- Introduction to Git and GitHub  
+- Solved LeetCode problems to improve logic building  
+
+🔗 **[LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/leet-code-codebase)**
 
 ---
 
 ### 📆 **17 December 2025**
-**Topic:** Programming Elements – Level 1  
+Focused on strengthening Java fundamentals by starting Programming Elements (Level 1).
+
+**Work Done:**
 - Variables and data types  
 - Operators  
-- Basic input/output  
+- Basic input and output using `Scanner`  
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
+🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
 ### 📆 **18 December 2025**
-**Topic:** Programming Elements – Level 2  
+Continued Programming Elements with more logical and arithmetic problems.
+
+**Work Done:**
 - Arithmetic programs  
 - Logical problem solving  
-- Improving code structure  
+- Improving code structure and readability  
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements
+🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
 ### 📆 **19 December 2025**
-**Topic:** Control Flow  
-- Conditional statements (`if`, `switch`)  
-- Looping constructs (`for`, `while`, `do-while`)  
+Learned how program execution flow is controlled in Java.
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow
+**Work Done:**
+- Conditional statements (`if`, `if-else`, `switch`)  
+- Looping constructs (`for`, `while`, `do-while`)  
+- Logic-based control flow programs  
+
+🔗 **[Control Flow](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow)**
 
 ---
 
 ### 📆 **20 December 2025**
-**Topic:** Scenario-Based Problems  
-- Real-world Java problem statements  
-- Applying logic to scenarios  
+Started working on real-world problem statements using Java.
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/scenario-based
+**Work Done:**
+- Scenario-based Java problems  
+- Applying Java logic to practical situations  
+
+🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/scenario-based)**
 
 ---
 
 ### 📆 **22 December 2025**
-**Topic:** Arrays  
+Focused on understanding and implementing arrays.
+
+**Work Done:**
 - One-dimensional arrays  
 - Traversal and manipulation  
 - Array-based problem solving  
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays
+🔗 **[Arrays](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays)**
 
 ---
 
 ### 📆 **23 December 2025**
-**Topic:** Strings  
-- String creation and manipulation  
-- String methods  
-- Logic-based string problems  
+Worked on String handling in Java.
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings
+**Work Done:**
+- String creation and manipulation  
+- Common String methods  
+- Logic-based String problems  
+
+🔗 **[Strings](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings)**
 
 ---
 
 ### 📆 **24 December 2025**
-**Topic:** Methods  
-- User-defined methods  
-- Parameters and return types  
-- Reusability and modular coding  
-- Calling methods from `main`  
+Started learning about methods and modular programming.
 
-🔗 Code:  
-https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods
+**Work Done:**
+- User-defined methods  
+- Method parameters and return types  
+- Writing reusable code  
+
+🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods)**
 
 ---
 
-## 🧠 Skills Covered
+### 📆 **26 December 2025**
+Continued practicing methods with better structure and reuse.
 
-- Core Java Fundamentals  
+**Work Done:**
+- Method reusability  
+- Modular programming  
+- Improving program organization  
+
+🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods)**
+
+---
+
+### 📆 **29 December 2025**
+Worked on additional Java practice beyond the core modules.
+
+**Work Done:**
+- Extra Java programs  
+- Revision of previously learned concepts  
+- Strengthening overall logic  
+
+🔗 **[Extras](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/extras)**
+
+---
+
+### 📆 **30 December 2025**
+Revisited scenario-based problems with more complex logic.
+
+**Work Done:**
+- Advanced scenario-based Java problems  
+- Case-based and real-world problem solving  
+
+🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/scenario-based)**
+
+---
+
+## 🧠 Concepts Covered
+
+- Java Programming Fundamentals  
+- Programming Elements  
 - Control Flow  
-- Arrays & Strings  
+- Arrays  
+- Strings  
 - Methods and Modular Programming  
-- Logical Problem Solving  
+- Scenario-Based Problem Solving  
+- LeetCode Practice  
 - Git & GitHub  
 
 ---
@@ -135,10 +189,16 @@ https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gc
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-New folders, programs, and daily updates will **continue to be added regularly** as the training progresses.
+New commits, folders, and improvements will continue to be added as the training progresses.
 
 ---
 
 ## 🔗 Repository Link
 
-👉 https://github.com/RaiAkarsh/BridgeLabz-Training
+👉 **[BridgeLabz-Training Repository](https://github.com/RaiAkarsh/BridgeLabz-Training)**
+
+---
+
+## 🙏 Acknowledgement
+
+Thanks to **BridgeLabz** for providing structured training and learning support.
