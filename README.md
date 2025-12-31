@@ -13,25 +13,26 @@ This repository documents my **day-wise Core Java learning** and hands-on practi
 
 ---
 
-## 🗂️ Repository Structure (Correct)
+## 🗂️ Repository Structure
 
 BridgeLabz-Training
 │
 ├── core-java-practice
-│ ├── gcr-codebase
-│ │ ├── programming-elements
-│ │ ├── control-flow
-│ │ ├── arrays
-│ │ ├── strings
-│ │ ├── methods
-│ │ └── extras
-│ │
-│ ├── leet-code-codebase
-│ └── scenario-based
+│   │
+│   ├── gcr-codebase
+│   │   ├── programming-elements
+│   │   ├── control-flow
+│   │   ├── arrays
+│   │   ├── strings
+│   │   ├── methods
+│   │
+│   ├── leet-code-codebase
+│   │
+│   └── scenario-based
 │
 └── README.md
 
-
+---
 
 📌  
 - **gcr-codebase** contains structured Core Java concept-wise practice  
@@ -40,7 +41,7 @@ BridgeLabz-Training
 
 ---
 
-## 📅 Training Timeline (Commit-Based)
+## 📅 Training Timeline 
 
 ### 📆 **16 December 2025**
 On this day, I started my Java training by setting up the development environment and understanding the workflow.
