@@ -51,7 +51,7 @@ On this day, I started my Java training by setting up the development environmen
 - Introduction to Git and GitHub  
 - Solved LeetCode problems to improve logic building  
 
-🔗 **[LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/leet-code-codebase)**
+🔗 **[LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)**
 
 ---
 
@@ -63,7 +63,7 @@ Focused on strengthening Java fundamentals by starting Programming Elements (Lev
 - Operators  
 - Basic input and output using `Scanner`  
 
-🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements)**
+🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
@@ -75,7 +75,7 @@ Continued Programming Elements with more logical and arithmetic problems.
 - Logical problem solving  
 - Improving code structure and readability  
 
-🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/programming-elements)**
+🔗 **[Programming Elements](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)**
 
 ---
 
@@ -87,7 +87,7 @@ Learned how program execution flow is controlled in Java.
 - Looping constructs (`for`, `while`, `do-while`)  
 - Logic-based control flow programs  
 
-🔗 **[Control Flow](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/control-flow)**
+🔗 **[Control Flow](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)**
 
 ---
 
@@ -98,7 +98,7 @@ Started working on real-world problem statements using Java.
 - Scenario-based Java problems  
 - Applying Java logic to practical situations  
 
-🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/scenario-based)**
+🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)**
 
 ---
 
@@ -110,7 +110,7 @@ Focused on understanding and implementing arrays.
 - Traversal and manipulation  
 - Array-based problem solving  
 
-🔗 **[Arrays](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/arrays)**
+🔗 **[Arrays](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)**
 
 ---
 
@@ -122,7 +122,7 @@ Worked on String handling in Java.
 - Common String methods  
 - Logic-based String problems  
 
-🔗 **[Strings](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/strings)**
+🔗 **[Strings](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)**
 
 ---
 
@@ -134,7 +134,7 @@ Started learning about methods and modular programming.
 - Method parameters and return types  
 - Writing reusable code  
 
-🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods)**
+🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)**
 
 ---
 
@@ -146,7 +146,7 @@ Continued practicing methods with better structure and reuse.
 - Modular programming  
 - Improving program organization  
 
-🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/methods)**
+🔗 **[Methods](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)**
 
 ---
 
@@ -158,7 +158,7 @@ Worked on additional Java practice beyond the core modules.
 - Revision of previously learned concepts  
 - Strengthening overall logic  
 
-🔗 **[Extras](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/gcr-codebase/extras)**
+🔗 **[Extras](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras)**
 
 ---
 
@@ -169,7 +169,7 @@ Revisited scenario-based problems with more complex logic.
 - Advanced scenario-based Java problems  
 - Case-based and real-world problem solving  
 
-🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/main/core-java-practice/scenario-based)**
+🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)**
 
 ---
 
