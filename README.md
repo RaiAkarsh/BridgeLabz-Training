@@ -14,34 +14,31 @@ This repository documents my **day-wise Core Java learning** and hands-on practi
 ---
 
 ## 🗂️ Repository Structure
+
 ```
 BridgeLabz-Training
-│
 ├── core-java-practice
-│   │
-│   ├── gcr-codebase
-│   │   ├── programming-elements
-│   │   ├── control-flow
-│   │   ├── arrays
-│   │   ├── strings
-│   │   ├── methods
-│   │
-│   ├── leet-code-codebase
-│   │
-│   └── scenario-based
+│ ├── gcr-codebase
+│ ├── leet-code-codebase
+│ └── scenario-based
+│
+├── oops-practice
+│ ├── gcr-codebase
+│ ├── leet-code-codebase
+│ └── scenario-based
 │
 └── README.md
+
 ```
----
 
 📌  
-- **gcr-codebase** contains structured Core Java concept-wise practice  
-- **leet-code-codebase** contains logic-building and DSA practice using LeetCode  
+- **gcr-codebase** contains structured concept-wise practice  
+- **leet-code-codebase** contains logic-building and DSA practice  
 - **scenario-based** contains real-world and case-based Java problems  
 
 ---
 
-## 📅 Training Timeline 
+## 📅 CORE JAVA PRACTICE – TRAINING TIMELINE
 
 ### 📆 **16 December 2025**
 On this day, I started my Java training by setting up the development environment and understanding the workflow.
@@ -173,30 +170,68 @@ Revisited scenario-based problems with more complex logic.
 
 ---
 
-## 🧠 Concepts Covered
+## 📅 OOPS PRACTICE – TRAINING TIMELINE
 
-- Java Programming Fundamentals  
-- Programming Elements  
-- Control Flow  
-- Arrays  
-- Strings  
-- Methods and Modular Programming  
-- Scenario-Based Problem Solving  
-- LeetCode Practice  
-- Git & GitHub  
+### 📆 **01 January 2026**
+**Topic:** Class and Object  
+
+🔗 **[Class and Object](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)**
+
+---
+
+### 📆 **02 January 2026**
+**Topic:** Constructor and Instance  
+
+🔗 **[Constructor and Instance](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructor-and-instance)**
+
+---
+
+### 📆 **03 January 2026**
+**Topic:** This, Static and Final  
+
+🔗 **[This / Static / Final](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/this-static-final)**
+
+---
+
+### 📆 **04 January 2026**
+**Topic:** Inheritance  
+
+🔗 **[Inheritance](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)**
+
+---
+
+### 📆 **05 January 2026**
+**Topic:** Encapsulation and Polymorphism  
+
+🔗 **[Encapsulation & Polymorphism](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism)**
+
+---
+
+### 📆 **06 January 2026**
+**Topic:** Class and Object Diagrams  
+
+🔗 **[Class & Object Diagrams](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-object-sequence-diagram)**
+
+---
+
+### 📆 **07 January 2026**
+**Topic:** Logic and Scenario-Based Programs  
+
+🔗 **[LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)**  
+🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)**
 
 ---
 
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-New commits, folders, and improvements will continue to be added as the training progresses.
+All Core Java and OOPS updates will be added **date-wise in this single README** to avoid merge conflicts.
 
 ---
 
 ## 🔗 Repository Link
 
-👉 **[BridgeLabz-Training Repository](https://github.com/RaiAkarsh/BridgeLabz-Training)**
+👉 **https://github.com/RaiAkarsh/BridgeLabz-Training**
 
 ---
 
