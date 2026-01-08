@@ -257,3 +257,20 @@ Applied OOPS concepts to logic-based problems and real-world applications.
 🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)**
 
 ---
+
+## 🔄 Ongoing Updates
+
+This repository is **actively maintained**.  
+All Core Java and OOPS updates will be added **date-wise in this single README** to avoid merge conflicts.
+
+---
+
+## 🔗 Repository Link
+
+👉 **https://github.com/RaiAkarsh/BridgeLabz-Training**
+
+---
+
+## 🙏 Acknowledgement
+
+Thanks to **BridgeLabz** for providing structured training and learning support.
