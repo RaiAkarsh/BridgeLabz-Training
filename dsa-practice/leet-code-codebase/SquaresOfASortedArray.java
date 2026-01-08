@@ -1,5 +1,5 @@
 import java.util.*;
-public class SquaresofaSortedArray {
+public class SquaresOfASortedArray {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
@@ -7,6 +7,7 @@ public class SquaresofaSortedArray {
         int[] nums = new int[n];
         System.out.println("Enter the elements of the array:");
         for(int i=0;i<n;i++){
+
             nums[i]=x.nextInt();
         }
         int[] result = sortedSquares(nums);
