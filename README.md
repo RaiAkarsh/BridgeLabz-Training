@@ -173,49 +173,85 @@ Revisited scenario-based problems with more complex logic.
 ## 📅 OOPS PRACTICE – TRAINING TIMELINE
 
 ### 📆 **01 January 2026**
-**Topic:** Class and Object  
+On this day, I started my Object-Oriented Programming practice by understanding the basic building blocks of OOPS.
+
+**Work Done:**
+- Created simple Java classes  
+- Instantiated objects using `new` keyword  
+- Accessed class methods and variables  
+- Understood the relationship between class and object  
 
 🔗 **[Class and Object](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)**
 
 ---
 
 ### 📆 **02 January 2026**
-**Topic:** Constructor and Instance  
+Focused on constructors and object initialization mechanisms in Java.
+
+**Work Done:**
+- Implemented default and parameterized constructors  
+- Initialized object state using constructors  
+- Learned the importance of constructors in object creation  
 
 🔗 **[Constructor and Instance](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructor-and-instance)**
 
 ---
 
 ### 📆 **03 January 2026**
-**Topic:** This, Static and Final  
+Learned commonly used OOPS-related keywords that help manage data and behavior.
+
+**Work Done:**
+- Used `this` keyword to resolve variable ambiguity  
+- Implemented `static` variables and methods  
+- Practiced `final` keyword to restrict modification  
 
 🔗 **[This / Static / Final](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/this-static-final)**
 
 ---
 
 ### 📆 **04 January 2026**
-**Topic:** Inheritance  
+Worked on inheritance to understand code reuse and hierarchical relationships.
+
+**Work Done:**
+- Implemented inheritance using `extends` keyword  
+- Accessed parent class properties and methods  
+- Practiced code reuse through inheritance  
 
 🔗 **[Inheritance](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)**
 
 ---
 
 ### 📆 **05 January 2026**
-**Topic:** Encapsulation and Polymorphism  
+Focused on implementing core OOPS principles for data protection and flexibility.
+
+**Work Done:**
+- Implemented encapsulation using private variables and public methods  
+- Used getters and setters  
+- Practiced method overriding to understand polymorphism  
 
 🔗 **[Encapsulation & Polymorphism](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/encapsulation-polymorphism)**
 
 ---
 
 ### 📆 **06 January 2026**
-**Topic:** Class and Object Diagrams  
+Learned how object interactions and program flow can be represented using diagrams.
+
+**Work Done:**
+- Studied class diagrams  
+- Understood object diagrams  
+- Worked with sequence diagrams to visualize object interaction  
 
 🔗 **[Class & Object Diagrams](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-object-sequence-diagram)**
 
 ---
 
 ### 📆 **07 January 2026**
-**Topic:** Logic and Scenario-Based Programs  
+Applied OOPS concepts to logic-based problems and real-world applications.
+
+**Work Done:**
+- Solved Java logic-building problems  
+- Implemented scenario-based Java programs  
+- Applied OOPS concepts in real-world problem statements  
 
 🔗 **[LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/leet-code-codebase)**  
 🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)**
