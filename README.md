@@ -18,16 +18,31 @@ This repository documents my **day-wise Core Java learning** and hands-on practi
 ```
 BridgeLabz-Training
 ├── core-java-practice
-│ ├── gcr-codebase
-│ ├── leet-code-codebase
-│ └── scenario-based
+│   ├── gcr-codebase
+│   │   ├── programming-elements
+│   │   ├── control-flow
+│   │   ├── arrays
+│   │   ├── strings
+│   │   ├── methods
+│   │   └── extras
+│   │
+│   ├── leet-code-codebase
+│   └── scenario-based
 │
 ├── oops-practice
-│ ├── gcr-codebase
-│ ├── leet-code-codebase
-│ └── scenario-based
+│   ├── gcr-codebase
+│   │   ├── class-and-object
+│   │   ├── constructor-and-instance
+│   │   ├── this-static-final
+│   │   ├── inheritance
+│   │   ├── encapsulation-polymorphism
+│   │   └── class-object-sequence-diagram
+│   │
+│   ├── leet-code-codebase
+│   └── scenario-based
 │
 └── README.md
+
 
 ```
 
