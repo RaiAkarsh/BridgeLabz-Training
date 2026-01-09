@@ -41,7 +41,17 @@ BridgeLabz-Training
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
+├── dsa-practice
+│   ├── gcr-codebase
+│   │   └── linked-list
+│   │
+│   ├── leet-code-codebase
+│   └── scenario-based
+│
+├── reviews
+│
 └── README.md
+
 
 
 ```
@@ -272,6 +282,24 @@ Applied OOPS concepts to logic-based problems and real-world applications.
 🔗 **[Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)**
 
 ---
+
+## 📅 DSA PRACTICE – TRAINING TIMELINE
+
+### 📆 **08 January 2026**
+On this day, I started my Data Structures and Algorithms (DSA) practice by working on linked list concepts and logic-based problems.
+
+**Work Done:**
+- Implemented linked list–based programs in Java  
+- Practiced node creation, traversal, and insertion logic  
+- Strengthened understanding of references and dynamic data structures  
+- Solved DSA-oriented problems to improve problem-solving skills  
+- Solved LeetCode problems related to data structures and logic building  
+
+🔗 **[Linked List – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked-list)**  
+🔗 **[LeetCode – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**
+
+---
+
 
 ## 🔄 Ongoing Updates
 
