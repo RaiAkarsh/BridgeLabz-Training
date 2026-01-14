@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class SubtracttheProductandSumofDigitsofanInteger {
+public class SubtractTheProductAndSumOfDigitsOfAnInteger {
         public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("Enter a number:");
         int n = x.nextInt();
-        SubtracttheProductandSumofDigitsofanInteger sp = new SubtracttheProductandSumofDigitsofanInteger();
+        SubtractTheProductAndSumOfDigitsOfAnInteger sp = new SubtractTheProductAndSumOfDigitsOfAnInteger();
         System.out.println(sp.subtractProductAndSum(n));
     }
         public int subtractProductAndSum(int n) {
