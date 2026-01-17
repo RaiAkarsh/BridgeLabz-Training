@@ -22,9 +22,10 @@ public class AddressBookMain {
         String email=x.nextLine();
         
         Contact contact=new Contact(firstName,lastName,address,city,state,zip,phoneNumber,email);
-        AddContacts addContacts=new AddContacts();
-        addContacts.addContact(contact);
+        ContactService contactService=new ContactService();
+        contactService.addContact(contact);
         // edit the given contact based on first name , field to be edited and new value
-        addContacts.editContact("John","address","456 Elm St");
+        contactService.editContact("John","address","456 Elm St");
+        contactService.deleteContact("John");
     }
 }
