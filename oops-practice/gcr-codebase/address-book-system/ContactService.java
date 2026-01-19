@@ -83,4 +83,15 @@ public class ContactService {
             }
         }
     }
+
+    void countByCityOrState(String location) {
+        int count = 0;
+        for (Contact contact : contactList) {
+            if (contact.getCity().equalsIgnoreCase(location)|| contact.getState().equalsIgnoreCase(location)) {
+                count++;
+            }
+      }
+        System.out.println("Total contacts in " + location + " : " + count);
+    }
+
 }

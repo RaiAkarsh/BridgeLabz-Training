@@ -18,7 +18,8 @@ public class AddressBookMain {
             System.out.println("2. Select Address Book");
             System.out.println("3. Show All Address Books");
             System.out.println("4. Search Person by City or State");
-            System.out.println("5. Exit");
+            System.out.println("5. Count Persons by City or State");
+            System.out.println("6. Exit");
             System.out.println("Choose an option: ");
 
             int mainChoice = x.nextInt();
@@ -27,7 +28,7 @@ public class AddressBookMain {
             switch (mainChoice) {
 
                 case 1:
-                    System.out.print("Enter Address Book Name: ");
+                    System.out.println("Enter Address Book Name: ");
                     String name = x.nextLine();
                     addressBooks.add(new AddressBook(name));
                     System.out.println("AddressBook '" + name + "' created.");
@@ -39,7 +40,7 @@ public class AddressBookMain {
                         break;
                     }
 
-                    System.out.print("Enter AddressBook name to open: ");
+                    System.out.println("Enter AddressBook name to open: ");
                     String searchBook = x.nextLine();
 
                     AddressBook selectedBook = null;
@@ -71,6 +72,12 @@ public class AddressBookMain {
                     break;
 
                 case 5:
+                    System.out.println("Enter City or State to count: ");
+                    String countLocation = x.nextLine();
+                    countAcrossAllBooks(countLocation);
+                    break;
+
+                case 6:
                     continueProgram = false;
                     System.out.println("Exiting...");
                     break;
@@ -164,5 +171,28 @@ public class AddressBookMain {
         if (!found) {
             System.out.println("No contacts found.");
         }
+    }
+
+    static void countAcrossAllBooks(String location) {
+
+        int total = 0;
+
+        for (AddressBook book : addressBooks) {
+
+            int count = 0;
+
+            for (Contact contact : book.getContactService().contactList) {
+
+                if (contact.getCity().equalsIgnoreCase(location)
+                        || contact.getState().equalsIgnoreCase(location)) {
+                    count++;
+                }
+            }
+
+            System.out.println("AddressBook: " + book.getBookName() + " → " + count + " contacts");
+            total += count;
+        }
+
+        System.out.println("Total contacts in " + location + " across all AddressBooks: " + total);
     }
 }
