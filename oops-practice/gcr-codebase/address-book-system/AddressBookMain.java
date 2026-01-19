@@ -2,24 +2,23 @@ import java.util.*;
 
 public class AddressBookMain {
 
-    static List<String> bookNames = new ArrayList<>();
-    static List<ContactService> books = new ArrayList<>();
+    static List<AddressBook> addressBooks = new ArrayList<>();
 
     public static void main(String[] args) {
-
-        System.out.println("Welcome to Address Book Program");
 
         Scanner x = new Scanner(System.in);
         boolean continueProgram = true;
 
+        System.out.println("Welcome to Multi Address Book Program");
+
         while (continueProgram) {
 
             System.out.println("\nMain Menu:");
-            System.out.println("1. Create AddressBook");
-            System.out.println("2. Select AddressBook");
-            System.out.println("3. Show All AddressBooks");
+            System.out.println("1. Create New Address Book");
+            System.out.println("2. Select Address Book");
+            System.out.println("3. Show All Address Books");
             System.out.println("4. Exit");
-            System.out.println("Choose an option: ");
+            System.out.print("Choose an option: ");
 
             int mainChoice = x.nextInt();
             x.nextLine();
@@ -27,34 +26,40 @@ public class AddressBookMain {
             switch (mainChoice) {
 
                 case 1:
-                    System.out.print("Enter AddressBook Name: ");
+                    System.out.print("Enter Address Book Name: ");
                     String name = x.nextLine();
-                    bookNames.add(name);
-                    books.add(new ContactService());
-                    System.out.println("AddressBook '" + name + "' created.");
+                    addressBooks.add(new AddressBook(name));
+                    System.out.println("Address Book '" + name + "' created.");
                     break;
 
                 case 2:
-                    if (books.isEmpty()) {
+                    if (addressBooks.isEmpty()) {
                         System.out.println("No AddressBook exists.");
                         break;
                     }
 
                     System.out.print("Enter AddressBook name to open: ");
-                    String search = x.nextLine();
+                    String searchBook = x.nextLine();
 
-                    int index = bookNames.indexOf(search);
+                    AddressBook selectedBook = null;
 
-                    if (index != -1) {
-                        manageContacts(books.get(index));
+                    for (AddressBook book : addressBooks) {
+                        if (book.getBookName().equalsIgnoreCase(searchBook)) {
+                            selectedBook = book;
+                            break;
+                        }
+                    }
+
+                    if (selectedBook != null) {
+                        manageContacts(selectedBook.getContactService());
                     } else {
                         System.out.println("Invalid AddressBook.");
                     }
                     break;
 
                 case 3:
-                    for (String n : bookNames) {
-                        System.out.println("- " + n);
+                    for (AddressBook book : addressBooks) {
+                        System.out.println("- " + book.getBookName());
                     }
                     break;
 
@@ -72,16 +77,16 @@ public class AddressBookMain {
     static void manageContacts(ContactService contactService) {
 
         Scanner x = new Scanner(System.in);
-        boolean continueProgram = true;
+        boolean manage = true;
 
-        while (continueProgram) {
+        while (manage) {
 
-            System.out.println("\nMenu:");
+            System.out.println("\nContact Menu:");
             System.out.println("1. Add Contact");
             System.out.println("2. Edit Contact");
             System.out.println("3. Delete Contact");
             System.out.println("4. Back");
-            System.out.println("Choose an option: ");
+            System.out.print("Choose option: ");
 
             int choice = x.nextInt();
             x.nextLine();
@@ -103,18 +108,17 @@ public class AddressBookMain {
                     System.out.print("Zip: ");
                     String zip = x.nextLine();
                     System.out.print("Phone Number: ");
-                    String phoneNumber = x.nextLine();
+                    String phone = x.nextLine();
                     System.out.print("Email: ");
                     String email = x.nextLine();
 
-                    Contact contact = new Contact(firstName, lastName, address, city, state, zip, phoneNumber, email);
-                    contactService.addContact(contact);
+                    contactService.addContact(new Contact(firstName, lastName, address, city, state, zip, phone, email));
                     break;
 
                 case 2:
                     System.out.print("Enter First Name of the contact to edit: ");
                     String editFirstName = x.nextLine();
-                    System.out.print("Enter field to edit (firstname, lastname, address, city, state, zip, phonenumber, email): ");
+                    System.out.print("Enter field to edit:(firstName, lastName, address, city, state, zip, phone, email) ");
                     String field = x.nextLine();
                     System.out.print("Enter new value: ");
                     String newValue = x.nextLine();
@@ -129,7 +133,7 @@ public class AddressBookMain {
                     break;
 
                 case 4:
-                    continueProgram = false;
+                    manage = false;
                     break;
 
                 default:
