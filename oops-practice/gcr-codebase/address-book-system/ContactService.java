@@ -73,4 +73,14 @@ public class ContactService {
         }
         System.out.println("Contact with first name " + firstName + " not found.");
     }
+
+    void searchByCityOrState(String location) {
+
+        for (Contact contact : contactList) {
+
+            if (contact.getCity().equalsIgnoreCase(location) || contact.getState().equalsIgnoreCase(location)) {
+                System.out.println(contact.getFirstName() + " " + contact.getLastName() + " - " + contact.getCity() + ", " + contact.getState());
+            }
+        }
+    }
 }

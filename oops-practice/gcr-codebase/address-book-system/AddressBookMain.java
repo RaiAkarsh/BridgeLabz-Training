@@ -17,8 +17,9 @@ public class AddressBookMain {
             System.out.println("1. Create New Address Book");
             System.out.println("2. Select Address Book");
             System.out.println("3. Show All Address Books");
-            System.out.println("4. Exit");
-            System.out.print("Choose an option: ");
+            System.out.println("4. Search Person by City or State");
+            System.out.println("5. Exit");
+            System.out.println("Choose an option: ");
 
             int mainChoice = x.nextInt();
             x.nextLine();
@@ -29,7 +30,7 @@ public class AddressBookMain {
                     System.out.print("Enter Address Book Name: ");
                     String name = x.nextLine();
                     addressBooks.add(new AddressBook(name));
-                    System.out.println("Address Book '" + name + "' created.");
+                    System.out.println("AddressBook '" + name + "' created.");
                     break;
 
                 case 2:
@@ -64,6 +65,12 @@ public class AddressBookMain {
                     break;
 
                 case 4:
+                    System.out.println("Enter City or State to search: ");
+                    String location = x.nextLine();
+                    searchAcrossAllBooks(location);
+                    break;
+
+                case 5:
                     continueProgram = false;
                     System.out.println("Exiting...");
                     break;
@@ -86,7 +93,7 @@ public class AddressBookMain {
             System.out.println("2. Edit Contact");
             System.out.println("3. Delete Contact");
             System.out.println("4. Back");
-            System.out.print("Choose option: ");
+            System.out.println("Choose option: ");
 
             int choice = x.nextInt();
             x.nextLine();
@@ -118,7 +125,7 @@ public class AddressBookMain {
                 case 2:
                     System.out.print("Enter First Name of the contact to edit: ");
                     String editFirstName = x.nextLine();
-                    System.out.print("Enter field to edit:(firstName, lastName, address, city, state, zip, phone, email) ");
+                    System.out.print("Enter field to edit:(firstname, lastname, address, city, state, zip, phonenumber, email) ");
                     String field = x.nextLine();
                     System.out.print("Enter new value: ");
                     String newValue = x.nextLine();
@@ -139,6 +146,23 @@ public class AddressBookMain {
                 default:
                     System.out.println("Invalid choice.");
             }
+        }
+    }
+
+    static void searchAcrossAllBooks(String location) {
+
+        boolean found = false;
+
+        for (AddressBook book : addressBooks) {
+
+            System.out.println("\nAddressBook: " + book.getBookName());
+
+            book.getContactService().searchByCityOrState(location);
+            found = true;
+        }
+
+        if (!found) {
+            System.out.println("No contacts found.");
         }
     }
 }
