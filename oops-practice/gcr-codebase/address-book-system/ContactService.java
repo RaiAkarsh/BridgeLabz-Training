@@ -2,9 +2,22 @@ import java.util.*;
 public class ContactService {
     List<Contact> contactList=new ArrayList<>();
 
-    void addContact(Contact contact){
-        contactList.add(contact);
+   void addContact(Contact newContact) {
+
+    for (Contact savedContact : contactList) {
+
+        if (savedContact.getFirstName().equalsIgnoreCase(newContact.getFirstName())
+                && savedContact.getLastName().equalsIgnoreCase(newContact.getLastName())) {
+
+            System.out.println("Duplicate Entry! This person already exists in the AddressBook.");
+            return;
+        }
     }
+
+    contactList.add(newContact);
+    System.out.println("Contact Added Successfully.");
+}
+
     void editContact(String firstName, String field, String newValue) {
         for (Contact contact : contactList) {
             if (contact.getFirstName().equalsIgnoreCase(firstName)) {
