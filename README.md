@@ -36,14 +36,19 @@ BridgeLabz-Training
 │   │   ├── this-static-final
 │   │   ├── inheritance
 │   │   ├── encapsulation-polymorphism
-│   │   └── class-object-sequence-diagram
+│   │   ├── class-object-sequence-diagram
+│   │   └── address-book-system
 │   │
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
 ├── dsa-practice
 │   ├── gcr-codebase
-│   │   └── linked-list
+│   │   ├── big-o-notation
+│   │   ├── linked-list
+│   │   ├── search-string-file
+│   │   ├── sorting
+│   │   └── stack-queue-hashmap
 │   │
 │   ├── leet-code-codebase
 │   └── scenario-based
@@ -51,6 +56,8 @@ BridgeLabz-Training
 ├── reviews
 │
 └── README.md
+
+
 
 
 
@@ -364,6 +371,76 @@ On this day, I focused on core Data Structures concepts by practicing stack, que
 
 🔗 **[Stack-Queue-HashMap DSA – Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue-hashmap)**  
 🔗 **[LeetCode – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**
+
+---
+
+### 📆 **15 January 2026**
+On this day, I worked on sorting techniques and participated in the weekly review session.
+
+**Work Done:**
+- Learned different sorting techniques and their working principles  
+- Practiced problems based on various sorting algorithms  
+- Participated in a comprehensive weekly review session with an external mentor  
+- Received feedback and identified areas for improvement  
+
+🔗 **[DSA – Sorting Algorithms](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)**  
+🔗 **[LeetCode – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**
+
+---
+
+### 📆 **16 January 2026**
+On this day, I continued practicing sorting techniques and worked on an OOPS mini project.
+
+**Work Done:**
+- Revised and practiced different sorting techniques  
+- Solved problems based on sorting algorithms  
+- Worked on Address Book System OOPS mini project up to Use Case 3  
+- Applied OOPS concepts in a real-world project scenario  
+
+🔗 **[DSA – Sorting Algorithms](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)**  
+🔗 **[LeetCode – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**  
+🔗 **[OOPS – Address Book System](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book-system)**
+
+---
+
+### 📆 **17 January 2026**
+On this day, I learned searching algorithms and continued development of the OOPS mini project.
+
+**Work Done:**
+- Learned searching techniques and file/string handling concepts  
+- Practiced problems based on searching logic  
+- Worked with `StringBuilder`, `StringBuffer`, and `FileReader`  
+- Extended Address Book System project up to Use Cases 5 and 6  
+
+🔗 **[DSA – Search & File Handling](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/search-string-file)**  
+🔗 **[LeetCode – DSA Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**  
+🔗 **[OOPS – Address Book System](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book-system)**
+
+---
+
+### 📆 **19 January 2026**
+On this day, I continued working on the OOPS mini project – Address Book System.
+
+**Work Done:**
+- Implemented Address Book System Use Cases 7, 8, 9, and 10  
+- Enhanced existing project logic and flow  
+- Strengthened understanding of OOPS concepts through hands-on implementation  
+
+🔗 **[OOPS – Address Book System](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/address-book-system)**
+
+---
+
+## 🧠 Concepts Covered
+
+- Core Java Fundamentals  
+- Programming Elements  
+- Control Flow  
+- Arrays and Strings  
+- Methods and Modular Programming  
+- Object-Oriented Programming  
+- Data Structures & Algorithms  
+- LeetCode Practice  
+- Git & GitHub  
 
 ---
 
