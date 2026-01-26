@@ -1,0 +1,5 @@
+Java is a programming language.
+Java is widely used.
+File handling in Java is powerful.
+Error handling in Java is important.
+Java Java Java file file error error error.
