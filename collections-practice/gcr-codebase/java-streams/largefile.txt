@@ -1,0 +1,7 @@
+INFO Application started
+INFO User logged in
+ERROR Failed to connect to database
+WARNING Low memory
+Error File not found
+INFO Process completed
+critical ERROR occurred while processing request
