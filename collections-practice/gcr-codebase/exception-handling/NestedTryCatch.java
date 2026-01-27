@@ -1,0 +1,19 @@
+public class NestedTryCatch {
+    public static void main(String[] args) {
+        int[] arr = {10,20,30,40,50};
+        int index = 1;
+        int divisor = 0;
+        try {
+            try {
+                int result = arr[index] / divisor;
+                System.out.println(result);
+            }
+            catch (ArithmeticException e) {
+                System.out.println("Cannot divide by zero!");
+            }
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Invalid array index!");
+        }
+    }
+}
