@@ -53,12 +53,19 @@ BridgeLabz-Training
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
+├── collections-practice
+│   ├── gcr-codebase
+│   │   ├── collections
+│   │   ├── java-generics
+│   │   ├── java-streams
+│   │   └── exception-handling
+│   │
+│   ├── leet-code-codebase
+│   └── scenario-based
+│
 ├── reviews
 │
 └── README.md
-
-
-
 
 
 ```
@@ -430,6 +437,106 @@ On this day, I continued working on the OOPS mini project – Address Book Syste
 
 ---
 
+### 📆 **20 January 2026**
+On this day, I worked on time complexity concepts and scenario-based problems in DSA.
+
+**Work Done:**
+- Learned and practiced Big-O Notation concepts  
+- Analyzed time complexity of different approaches  
+- Implemented scenario-based DSA projects:
+  - Cinema Time Project  
+  - Parcel Tracker Project  
+  - Exam Proctor Project  
+  - Employee Role Polymorphism Project  
+  - Browser Buddy Project  
+  - Book Shelf Project  
+- Strengthened understanding of performance analysis and real-world problem solving  
+
+🔗 **[DSA – Big O Notation](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/big-o-notation)**  
+🔗 **[DSA – Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)**
+
+---
+
+### 📆 **21 January 2026**
+On this day, I worked on Java Generics and continued solving DSA problems on LeetCode.
+
+**Work Done:**
+- Learned Java Generics and its use in type safety  
+- Practiced generic classes and methods  
+- Solved DSA problems on LeetCode to strengthen problem-solving skills  
+
+🔗 **[Collections – Java Generics](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-generics)**  
+🔗 **[DSA – LeetCode Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/leet-code-codebase)**
+
+---
+
+### 📆 **22 January 2026**
+Focused on understanding Java Collections framework.
+
+**Work Done:**
+- Learned core concepts of Java Collections  
+- Worked with List, Set, and Map implementations  
+- Practiced collection-based programs  
+
+🔗 **[Collections Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/collections)**
+
+---
+
+### 📆 **23 January 2026**
+Continued working on Java Collections with deeper problem-solving.
+
+**Work Done:**
+- Implemented advanced collection-based programs  
+- Improved data handling using Collections API  
+- Strengthened logical thinking using collection problems  
+
+🔗 **[Collections Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/collections)**
+
+---
+
+### 📆 **26 January 2026**
+Worked on Java Streams to process data efficiently.
+
+**Work Done:**
+- Learned Java Streams API  
+- Practiced stream operations like filter, map, and reduce  
+- Implemented programs using functional-style programming  
+
+🔗 **[Java Streams](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-streams)**
+
+---
+
+### 📆 **27 January 2026**
+Focused on Exception Handling concepts in Java.
+
+**Work Done:**
+- Learned checked and unchecked exceptions  
+- Implemented try-catch-finally blocks  
+- Created custom exceptions  
+- Improved error handling and program stability  
+
+🔗 **[Exception Handling](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/exception-handling)**
+
+---
+
+### 📆 **28 January 2026**
+Worked on scenario-based DSA projects focusing on real-world problem statements.
+
+**Work Done:**
+- Implemented scenario-based DSA programs  
+- Designed logic for practical system-level problems  
+- Improved problem-solving and logical structuring skills  
+
+**Scenario-Based Projects Implemented:**
+- Table Reservation Project  
+- File Back Scheduler Project  
+- Smart Checkout Project  
+- Edu Results Project  
+
+🔗 **[DSA – Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)**
+
+---
+
 ## 🧠 Concepts Covered
 
 - Core Java Fundamentals  
@@ -437,10 +544,14 @@ On this day, I continued working on the OOPS mini project – Address Book Syste
 - Control Flow  
 - Arrays and Strings  
 - Methods and Modular Programming  
-- Object-Oriented Programming  
-- Data Structures & Algorithms  
+- Object-Oriented Programming (OOPS)  
+- Data Structures & Algorithms (DSA)  
+- Java Collections Framework  
+- Java Generics, Streams, and Exception Handling  
+- Scenario-Based Problem Solving  
 - LeetCode Practice  
 - Git & GitHub  
+
 
 ---
 
