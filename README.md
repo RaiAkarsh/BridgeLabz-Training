@@ -55,12 +55,33 @@ BridgeLabz-Training
 │
 ├── collections-practice
 │   ├── gcr-codebase
+│   │   ├── JUnit
+│   │   ├── Json
 │   │   ├── collections
+│   │   ├── csv-handling
+│   │   ├── exception-handling
+│   │   ├── java-annotation
 │   │   ├── java-generics
+│   │   ├── java-reflection
+│   │   ├── java-regex
 │   │   ├── java-streams
-│   │   └── exception-handling
+│   │   ├── sonarqube
+│   │   └── test-case
 │   │
 │   ├── leet-code-codebase
+│   └── scenario-based
+│
+├── dbms-practice
+│   ├── gcr-codebase
+│   │   └── jdbc-dbms
+│
+├── java-8-features-practice
+│   ├── gcr-codebase
+│   │   ├── functional-interfaces
+│   │   ├── java-collectors
+│   │   ├── lambda-expressions
+│   │   └── stream-api
+│   │
 │   └── scenario-based
 │
 ├── reviews
@@ -537,6 +558,163 @@ Worked on scenario-based DSA projects focusing on real-world problem statements.
 
 ---
 
+### 📆 **30 January 2026**
+On this day, I worked on Regex patterns and unit testing concepts.
+
+**Work Done:**
+- Practiced Java Regex for pattern matching and validation  
+- Learned JUnit basics for writing unit test cases  
+- Improved understanding of testing logic and input validation  
+
+🔗 **[Collections – Regex](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-regex)**  
+🔗 **[Collections – JUnit](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/JUnit)**
+
+---
+
+### 📆 **31 January 2026**
+On this day, I worked on scenario-based problems in the Collections branch.
+
+**Work Done:**
+- Implemented scenario-based collection programs  
+- Applied real-world logic using Java Collections framework  
+- Strengthened problem-solving skills using practical examples  
+- Completed scenario-based problems:
+  - Flip-Key Logical Problem  
+  - Lexical Twist  
+
+🔗 **[Collections – Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based)**
+
+---
+
+### 📆 **01 February 2026**
+On this day, I worked on reflection concepts and implemented a scenario-based project.
+
+**Work Done:**
+- Learned Java Reflection API concepts  
+- Implemented dynamic class handling logic  
+- Completed scenario-based project:
+  - Future Logistics  
+
+🔗 **[Collections – Reflection](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-reflection)**
+
+---
+
+### 📆 **02 February 2026**
+On this day, I practiced annotations and CSV file handling.
+
+**Work Done:**
+- Learned Java Annotations and their usage  
+- Implemented annotation-based programs  
+- Worked with CSV file reading and processing logic  
+
+🔗 **[Collections – Annotations](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/java-annotation)**  
+🔗 **[Collections – CSV Handling](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/csv-handling)**
+
+---
+
+### 📆 **03 February 2026**
+On this day, I worked on JSON handling and solved scenario-based problems.
+
+**Work Done:**
+- Learned JSON parsing and handling in Java  
+- Implemented programs using JSON data structures  
+- Practiced reading and processing structured data  
+- Completed scenario-based problems:
+  - Factory Robot Hazard Analyzer Problem  
+  - Stream Buzz Problem  
+
+🔗 **[Collections – GCR Codebase](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase)**
+
+---
+
+### 📆 **04 February 2026**
+On this day, I worked on Java 8 functional programming concepts.
+
+**Work Done:**
+- Learned Lambda Expressions  
+- Practiced Functional Interfaces  
+- Implemented functional-style logic programs  
+
+🔗 **[Java 8 – Lambda Expressions](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/lambda-expressions)**  
+🔗 **[Java 8 – Functional Interfaces](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/functional-interfaces)**
+
+---
+
+### 📆 **05 February 2026**
+On this day, I implemented a scenario-based project in the Java 8 branch.
+
+**Work Done:**
+- Implemented real-world scenario project:
+  - AeroVigil  
+- Applied Java 8 concepts in practical logic design  
+
+🔗 **[Java 8 – Scenario Based](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/scenario-based)**
+
+---
+
+### 📆 **06 February 2026**
+On this day, I worked on Stream API concepts.
+
+**Work Done:**
+- Learned Java Stream API  
+- Practiced stream operations such as filter, map, and reduce  
+- Implemented programs using functional data processing  
+
+🔗 **[Java 8 – Stream API](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/stream-api)**
+
+---
+
+### 📆 **07 February 2026**
+On this day, I worked on collectors and implemented a scenario-based project.
+
+**Work Done:**
+- Learned Java Collectors utility class  
+- Practiced grouping and aggregation operations  
+- Implemented scenario-based project:
+  - OceanFleet  
+
+🔗 **[Java 8 – Collectors](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/java-collectors)**
+
+---
+
+### 📆 **09 February 2026**
+On this day, I worked on code quality and static analysis tools.
+
+**Work Done:**
+- Learned SonarQube concepts  
+- Ran code analysis for quality inspection  
+- Understood code smells and improvements  
+
+🔗 **[Collections – SonarQube](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/sonarqube)**
+
+---
+
+### 📆 **10 February 2026**
+On this day, I practiced writing test cases using JUnit.
+
+**Work Done:**
+- Implemented unit test cases  
+- Learned assertion methods  
+- Strengthened testing logic and debugging skills  
+
+🔗 **[Collections – Test Cases](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/collections-practice/collections-practice/gcr-codebase/test-case)**
+
+---
+
+### 📆 **11 February 2026**
+On this day, I worked on database connectivity using JDBC.
+
+**Work Done:**
+- Implemented JDBC connectivity  
+- Built database-based application:
+  - Health Clinic App  
+- Learned database operations using Java  
+
+🔗 **[DBMS – JDBC](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/dbms-practice/dbms-practice/gcr-codebase/jdbc-dbms)**
+
+---
+
+
 ## 🧠 Concepts Covered
 
 - Core Java Fundamentals  
@@ -546,11 +724,22 @@ Worked on scenario-based DSA projects focusing on real-world problem statements.
 - Methods and Modular Programming  
 - Object-Oriented Programming (OOPS)  
 - Data Structures & Algorithms (DSA)  
+- Big-O Notation and Complexity Analysis  
+- Searching and Sorting Algorithms  
+- Linked List, Stack, Queue, and HashMap  
 - Java Collections Framework  
 - Java Generics, Streams, and Exception Handling  
+- Java 8 Features (Lambda, Functional Interfaces, Stream API, Collectors)  
+- File Handling (CSV, JSON)  
+- Java Reflection and Annotations  
+- Regex and Pattern Matching  
+- Unit Testing with JUnit  
+- Static Code Analysis with SonarQube  
+- JDBC and Database Connectivity  
 - Scenario-Based Problem Solving  
 - LeetCode Practice  
 - Git & GitHub  
+
 
 
 ---
@@ -558,7 +747,8 @@ Worked on scenario-based DSA projects focusing on real-world problem statements.
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-All Core Java, OOPS, and DSA updates will be added **date-wise in this single README** to avoid merge conflicts.
+All Core Java, OOPS, DSA, Collections, Java 8, and DBMS updates will be added **date-wise in this single README** to avoid merge conflicts and maintain a unified progress timeline.
+
 
 ---
 
