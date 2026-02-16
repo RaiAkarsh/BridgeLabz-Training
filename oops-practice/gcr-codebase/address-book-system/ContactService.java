@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.*;
 public class ContactService {
     List<Contact> contactList=new ArrayList<>();
@@ -126,4 +130,33 @@ public class ContactService {
             System.out.println(contact);
         }
     }
+
+    void writeContactsToFile(String fileName) {
+        try {
+            FileWriter writer = new FileWriter(fileName);
+            for (Contact contact : contactList) {
+                writer.write(contact.toString() + System.lineSeparator());
+            }
+            writer.close();
+            System.out.println("Contacts written to file successfully.");
+        } 
+        catch (IOException e) {
+            System.out.println("Error writing to file.");
+        }
+    }
+
+    void readContactsFromFile(String fileName) {
+        try {
+            File file = new File(fileName);
+            Scanner fileScanner = new Scanner(file);
+            while (fileScanner.hasNextLine()) {
+                System.out.println(fileScanner.nextLine());
+            }
+            fileScanner.close();
+        } 
+        catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+        }
+    }
+
 }
