@@ -1,8 +1,22 @@
 import java.util.*;
 public class EmpWageBuilder {
-    public static void computewages(String name , double wages, int maxHours, int maxDays){
+    private String name ;
+    private double wages;
+    private int maxHours;
+    private int maxDays;
+    private double totalWages;
+
+    public EmpWageBuilder(String name,double wages,int maxHours,int maxDays){
+        this.name=name;
+        this.wages=wages;
+        this.maxHours=maxHours;
+        this.maxDays=maxDays;
+        this.totalWages=0.0;
+    }
+
+    public void computewages(){
         int fullTime=8,partTime=4,days=0,workingHours=0;
-        double dailywages=0.0,totalWages=0.0;
+        double dailywages=0.0;
         while(days<maxDays && workingHours<maxHours){
             int attendence = (int)(Math.random()*3);
             switch(attendence){
@@ -26,5 +40,9 @@ public class EmpWageBuilder {
         }
         System.out.println("Company name : "+name);
         System.out.println("Total wages : "+ totalWages);        
+    }
+
+    public double getTotalWages(){
+        return totalWages;
     }
 }
