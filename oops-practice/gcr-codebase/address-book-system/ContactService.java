@@ -94,4 +94,13 @@ public class ContactService {
         System.out.println("Total contacts in " + location + " : " + count);
     }
 
+    void sortContactsByName() {
+        Collections.sort(contactList,
+                Comparator.comparing(Contact::getFirstName, String.CASE_INSENSITIVE_ORDER));
+        for (Contact contact : contactList) {
+            System.out.println(contact);
+        }
+    }
+
+
 }

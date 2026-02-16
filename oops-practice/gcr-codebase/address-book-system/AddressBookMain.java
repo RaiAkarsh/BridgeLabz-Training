@@ -99,7 +99,8 @@ public class AddressBookMain {
             System.out.println("1. Add Contact");
             System.out.println("2. Edit Contact");
             System.out.println("3. Delete Contact");
-            System.out.println("4. Back");
+            System.out.println("4. Sort Contacts by Name");
+            System.out.println("5. Back");
             System.out.println("Choose option: ");
 
             int choice = x.nextInt();
@@ -147,6 +148,10 @@ public class AddressBookMain {
                     break;
 
                 case 4:
+                    contactService.sortContactsByName();
+                    break;
+
+                case 5:
                     manage = false;
                     break;
 
