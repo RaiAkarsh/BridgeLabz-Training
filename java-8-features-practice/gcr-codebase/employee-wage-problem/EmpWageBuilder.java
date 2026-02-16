@@ -1,18 +1,15 @@
 import java.util.*;
 public class EmpWageBuilder implements IEmpWage {
-
-    private CompanyEmpWage[] companywage;
-    private int numOfCompany=0;
-    public EmpWageBuilder(int size){
-        companywage = new CompanyEmpWage[size];
+    List<CompanyEmpWage>companywage;
+    public EmpWageBuilder(){
+        companywage = new ArrayList<>();
     }
     public void addCompany(String name,double wages,int maxHours,int maxDays){
-        companywage[numOfCompany++]=new CompanyEmpWage(name,wages,maxHours,maxDays);
+        companywage.add(new CompanyEmpWage(name,wages,maxHours,maxDays));
     }
 
     public void computewages(){
-        for(int i=0;i<numOfCompany;i++){
-            CompanyEmpWage c = companywage[i];
+        for(CompanyEmpWage c: companywage){
             int fullTime=8,partTime=4,days=0,workingHours=0;
             double dailywages=0.0;
             while(days<c.maxDays && workingHours<c.maxHours){
@@ -32,7 +29,8 @@ public class EmpWageBuilder implements IEmpWage {
                         System.out.println("Employee is absent");
                         dailywages=0;
                 }
-                System.out.println("Daily wages : " + dailywages);
+                c.dailywages.add(dailywages);
+                //System.out.println("Daily wages : " + dailywages);
                 c.totalWages+=dailywages;
                 days++;
             }
