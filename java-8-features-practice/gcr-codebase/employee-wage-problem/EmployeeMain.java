@@ -2,23 +2,28 @@ import java.util.*;
 class EmployeeMain{
     public static void main(String[] args){
         System.out.println("Welcome to Employee Wage Computatio Program");
-        int attendence = (int)(Math.random()*2);
-        int fullTime=8,partTime=4,wages=20,dailywages=0;
-        if(attendence==1){
-            int typeOfWork= (int)(Math.random()*2);
-            switch(typeOfWork){
+        int fullTime=8,partTime=4,wages=20,dailywages=0,days=0,totalWages=0,workingHours=0;
+        while(days<20 && workingHours<100){
+            int attendence = (int)(Math.random()*3);
+            switch(attendence){
                 case 0:
                     System.out.println("Full Time");
                     dailywages=fullTime*wages;
+                    workingHours+=fullTime;
                     break;
                 case 1:
                     System.out.println("Part Time");
                     dailywages=partTime*wages;
+                    workingHours+=partTime;
+                    break;
+                default:
+                    System.out.println("Employee is absent");
+                    dailywages=0;
             }
             System.out.println("Daily wages : " + dailywages);
+            totalWages+=dailywages;
+            days++;
         }
-        else{
-            System.out.println("Employee is absent");
-        }
+        System.out.println("Total wages : "+ totalWages);        
     }
 }
