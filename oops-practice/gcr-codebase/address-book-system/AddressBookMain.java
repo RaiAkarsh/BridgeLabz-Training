@@ -100,7 +100,10 @@ public class AddressBookMain {
             System.out.println("2. Edit Contact");
             System.out.println("3. Delete Contact");
             System.out.println("4. Sort Contacts by Name");
-            System.out.println("5. Back");
+            System.out.println("5. Sort Contacts by City");
+            System.out.println("6. Sort Contacts by State");
+            System.out.println("7. Sort Contacts by Zip");
+            System.out.println("8. Back");
             System.out.println("Choose option: ");
 
             int choice = x.nextInt();
@@ -152,6 +155,18 @@ public class AddressBookMain {
                     break;
 
                 case 5:
+                    contactService.sortContactsByCity();
+                    break;
+
+                case 6:
+                    contactService.sortContactsByState();
+                    break;
+
+                case 7:
+                    contactService.sortContactsByZip();
+                    break;
+
+                case 8:
                     manage = false;
                     break;
 

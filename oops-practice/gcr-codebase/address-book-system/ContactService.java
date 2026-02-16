@@ -102,5 +102,28 @@ public class ContactService {
         }
     }
 
+    void sortContactsByCity() {
+        Collections.sort(contactList,
+            Comparator.comparing(Contact::getCity, String.CASE_INSENSITIVE_ORDER));
 
+        for (Contact contact : contactList) {
+            System.out.println(contact);
+        }
+    }
+
+    void sortContactsByState() {
+        Collections.sort(contactList,
+            Comparator.comparing(Contact::getState, String.CASE_INSENSITIVE_ORDER));
+        for (Contact contact : contactList) {
+            System.out.println(contact);
+        }
+    }
+
+    void sortContactsByZip() {
+        Collections.sort(contactList,
+            Comparator.comparing(Contact::getZip));
+        for (Contact contact : contactList) {
+            System.out.println(contact);
+        }
+    }
 }
