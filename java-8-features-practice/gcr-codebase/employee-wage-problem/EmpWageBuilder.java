@@ -1,12 +1,12 @@
 import java.util.*;
-public class EmpWageBuilder {
+public class EmpWageBuilder implements IEmpWage {
 
     private CompanyEmpWage[] companywage;
     private int numOfCompany=0;
     public EmpWageBuilder(int size){
         companywage = new CompanyEmpWage[size];
     }
-    void addCompany(String name,double wages,int maxHours,int maxDays){
+    public void addCompany(String name,double wages,int maxHours,int maxDays){
         companywage[numOfCompany++]=new CompanyEmpWage(name,wages,maxHours,maxDays);
     }
 
