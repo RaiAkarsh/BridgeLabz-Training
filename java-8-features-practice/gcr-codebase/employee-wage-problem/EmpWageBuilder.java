@@ -12,30 +12,36 @@ public class EmpWageBuilder implements IEmpWage {
         for(CompanyEmpWage c: companywage){
             int fullTime=8,partTime=4,days=0,workingHours=0;
             double dailywages=0.0;
-            while(days<c.maxDays && workingHours<c.maxHours){
+            while(days<c.getMaxDays() && workingHours<c.getMaxHours()){
                 int attendence = (int)(Math.random()*3);
                 switch(attendence){
                     case 0:
-                        System.out.println("Full Time");
-                        dailywages=fullTime*c.wages;
+                        dailywages=fullTime*c.getWages();
                         workingHours+=fullTime;
                         break;
                     case 1:
-                        System.out.println("Part Time");
-                        dailywages=partTime*c.wages;
+                        dailywages=partTime*c.getWages();
                         workingHours+=partTime;
                         break;
                     default:
-                        System.out.println("Employee is absent");
                         dailywages=0;
                 }
-                c.dailywages.add(dailywages);
-                //System.out.println("Daily wages : " + dailywages);
-                c.totalWages+=dailywages;
+                c.getDailywages().add(dailywages);
+                c.setTotalWages(c.getTotalWages()+dailywages);
                 days++;
             }
-        System.out.println("Company name : "+c.name);
-        System.out.println("Total wages : "+ c.totalWages); 
+        System.out.println("Company name : "+c.getName());
+        System.out.println("Daily wages : "+ c.getDailywages());
+        System.out.println("Total wages : "+ c.getTotalWages());
+        System.out.println("------------------------------\n"); 
         }
+    }
+    public double getTotalWages(String company){
+        for(CompanyEmpWage c: companywage){
+            if(c.getName().equals(company)){
+                return c.getTotalWages();
+            }
+        }
+        return 0.0;
     }
 }
