@@ -1,3 +1,5 @@
+package org.example;
+
 public class AddressBook {
     private String bookName;
     private ContactService contactService;
