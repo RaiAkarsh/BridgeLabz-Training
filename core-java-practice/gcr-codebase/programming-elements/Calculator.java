@@ -1,0 +1,15 @@
+import java.util.*;
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner x=new Scanner(System.in);
+        double num1 = x.nextDouble();
+        double num2 = x.nextDouble();
+        double add= num1 + num2;
+        double sub= num1 - num2;
+        double mul= num1 * num2;
+        double div= num1 / num2;
+        System.out.println("The addition ,subtraction , multiplication and division value  of 2 numbers "+num1+" and "+num2+" is "+add+" , "+sub+" , "+mul+" , and  "+div);
+    }
+
+    
+}
