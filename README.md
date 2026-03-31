@@ -77,12 +77,23 @@ BridgeLabz-Training
 │
 ├── java-8-features-practice
 │   ├── gcr-codebase
+│   │   ├── employee-wage-problem 
 │   │   ├── functional-interfaces
 │   │   ├── java-collectors
 │   │   ├── lambda-expressions
 │   │   └── stream-api
 │   │
 │   └── scenario-based
+│
+├── multi-threading-practice
+│   ├── gcr-codebase
+│   │   └── java-multi-threading
+│   │
+│   └── scenario-based
+│
+├── solution-designing-practice
+│   ├── gcr-codebase
+│   │   └── LibraryManagementSystem
 │
 ├── reviews
 │
@@ -714,6 +725,78 @@ On this day, I worked on database connectivity using JDBC.
 
 ---
 
+### 📆 **12 February 2026**
+
+On this day, I worked on a real-world application under solution designing to strengthen system design and object modeling skills.
+
+**Work Done:**
+- Implemented **Library Management System**  
+- Focused on class design and modular structure  
+- Applied OOPS concepts in a structured project  
+- Improved understanding of real-world system design  
+
+🔗 **[Solution Designing – Library Management System](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/solution-designing-practice/solution-designing-practice/gcr-codebase/LibraryManagementSystem)**  
+
+---
+
+### 📆 **14 February 2026**
+
+Focused on learning concurrent programming using Java multi-threading.
+
+**Work Done:**
+- Learned basics of **Java Multi-threading**  
+- Understood thread lifecycle and execution  
+- Implemented multi-threaded programs  
+- Practiced synchronization and thread handling concepts  
+
+🔗 **[Multi-Threading Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/multi-threading-practice/multi-threading-practice/gcr-codebase/java-multi-threading)**  
+
+---
+
+### 📆 **16 February 2026**
+
+Worked on Java 8 features by solving a real-world problem using functional programming concepts.
+
+**Work Done:**
+- Implemented **Employee Wage Problem** using Java 8  
+- Used lambda expressions and functional interfaces  
+- Applied modern Java programming techniques  
+- Improved code readability and efficiency  
+
+🔗 **[Java 8 Features – GCR Codebase](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase)**  
+
+---
+
+### 📆 **19 February 2026**
+
+Focused on strengthening problem-solving skills using Java 8 concepts on LeetCode.
+
+**Work Done:**
+- Solved LeetCode problems using Java 8 features  
+- Applied streams and functional programming  
+- Improved logic building and optimization techniques  
+
+🔗 **[LeetCode – Java 8 Practice](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/leet-code-codebase)**  
+
+---
+
+### 📆 **17 March 2026**
+
+Worked on real-world scenario-based problems using multi-threading concepts.
+
+**Work Done:**
+- Implemented scenario-based multi-threading problems  
+- Applied concurrency concepts in practical use cases  
+- Strengthened understanding of thread coordination and execution  
+
+**Scenario-Based Problems:**
+- Key Generation  
+- Global Shipment Manifest Validator  
+
+🔗 **[Scenario Based – Multi-Threading](https://github.com/RaiAkarsh/BridgeLabz-Training/tree/multi-threading-practice/multi-threading-practice/scenario-based)**  
+
+---
+
 
 ## 🧠 Concepts Covered
 
@@ -736,21 +819,18 @@ On this day, I worked on database connectivity using JDBC.
 - Unit Testing with JUnit  
 - Static Code Analysis with SonarQube  
 - JDBC and Database Connectivity  
+- Multi-Threading and Concurrency  
+- Solution Designing and System Design Basics  
 - Scenario-Based Problem Solving  
 - LeetCode Practice  
 - Git & GitHub  
-
-
 
 ---
 
 ## 🔄 Ongoing Updates
 
 This repository is **actively maintained**.  
-All Core Java, OOPS, DSA, Collections, Java 8, and DBMS updates will be added **date-wise in this single README** to avoid merge conflicts and maintain a unified progress timeline.
-
-
----
+All Core Java, OOPS, DSA, Collections, Java 8, Multi-Threading, Solution Designing, and DBMS updates will be added **date-wise in this single README** to avoid merge conflicts and maintain a unified progress timeline.
 
 ## 🔗 Repository Link
 
