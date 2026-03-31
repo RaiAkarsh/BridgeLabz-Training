@@ -1,0 +1,22 @@
+[
+  {
+    "firstName": "Akarsh",
+    "lastName": "Rai",
+    "address": "H-Block",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "zip": "214569",
+    "phoneNumber": "9874563210",
+    "email": "aka@gmail.com"
+  },
+  {
+    "firstName": "kanhiya",
+    "lastName": "sharma",
+    "address": "G-Block",
+    "city": "Mathura",
+    "state": "215643",
+    "zip": "12365",
+    "phoneNumber": "9856741230",
+    "email": "ka@gmail.com"
+  }
+]
